@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background: #e91e63;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8bbd0;
+}
+
+.content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer {
+  background: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+/* Header */
+header {
+  background: #e91e63;
+  color: white;
+  padding: 15px 0;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.site-title{
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* Logo section */
+.logo-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo-section img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8bbd0;
+}
+
+.hero h2 {
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Body photo */
+.body-photo {
+  width: 90%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  background: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
